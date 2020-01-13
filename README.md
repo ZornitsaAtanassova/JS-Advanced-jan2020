@@ -25,11 +25,11 @@ _This repository contains tasks resolved with JavaScript. Tasks' terms can be se
 
 ##### Duration of module: _13/01/2020 - 05/04/2020_
 
-##### Certificate: _..._
+<!--##### Certificate: _..._-->
 
 ##### Credits: _27_
 
-##### Exam result: _..._
+<!--##### Exam result: _..._-->
 
 ##### Lecturers:
 * [Stamo Petkov](https://softuni.bg/users/profile/show/stamopetkov) - Competencies: BASIC, Pascal, Object Pascal, PHP, ASP.NET, C#, JavaScript, Software Architectures. (_Lecturer at SoftUni_)
