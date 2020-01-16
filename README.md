@@ -29,7 +29,7 @@ _This repository contains tasks resolved with JavaScript. Tasks' terms can be se
 
 ##### Credits: _27_
 
-##### Scoring System for the Cource JS Advanced: 90% Practical Exam + 5% Theoretical Exam + 5% Homework
+##### Scoring System for the Cource JS Advanced: _90% Practical Exam + 5% Theoretical Exam + 5% Homework_
 
 <!--##### Scoring System for the Cource JS Advanced: _..._-->
 
