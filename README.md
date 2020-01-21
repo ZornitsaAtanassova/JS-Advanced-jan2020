@@ -29,9 +29,14 @@ _This repository contains tasks resolved with JavaScript. Tasks' terms can be se
 
 ##### Credits: _27_
 
+##### Scoring System for the Cource JS Advanced: _90% Practical Exam + 5% Theoretical Exam + 5% Homework_
+
+<!--##### Scoring System for the Cource JS Advanced: _..._-->
+
 <!--##### Exam result: _..._-->
 
 ##### Lecturers:
-* [Stamo Petkov](https://softuni.bg/users/profile/show/stamopetkov) - Competencies: BASIC, Pascal, Object Pascal, PHP, ASP.NET, C#, JavaScript, Software Architectures. (_Lecturer at SoftUni_)
-
+* [Stamo Petkov](https://softuni.bg/users/profile/show/stamopetkov) - Competencies: BASIC, Pascal, Object Pascal, PHP, ASP.NET, C#, JavaScript, Software Architectures. (_Lecturer at SoftUni and Head Of Department at Information Services Plc._)
+* Hristiyan Ivanov - JavaScript, Angular, Node.js, HTML5, Trackling problems on StackOverflow (_Lecturer at SoftUni and Full-time Front-end developer at Hillgrand_)
+* Hristomir Asenov - JavaScript, ExpressJS, ReactJS, MongoDB with Mongoose, HTML and CSS (_Team Lead JS Web Module at SoftUni_)
 ---
