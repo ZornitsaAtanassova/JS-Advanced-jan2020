@@ -10,12 +10,12 @@ _This repository contains tasks resolved with JavaScript. Tasks' terms can be se
 **13 - 14.01.2020** :heavy_check_mark: Syntax, Functions and Statements | **24 - 25.02.2020** :heavy_check_mark: _This_
 16 - 17.01.2020 :heavy_check_mark: Arrays | 27 - 28.02.2020 :heavy_check_mark: _Object Composition_
 **20 - 21.01.2020** :heavy_check_mark: Objects | **02 - 06.03.2020** :heavy_check_mark: _Prototypes and Inheritance_
-23 -24.01.2020 :heavy_check_mark: Advanced Functions | **09 - 10.03.2020** :heavy_check_mark: _REST Services and AJAX_
+23 - 24.01.2020 :heavy_check_mark: Advanced Functions | **09 - 10.03.2020** :heavy_check_mark: _REST Services and AJAX_
 **27 - 28.01.2020** :heavy_check_mark: DOM | 12 - 13.03.2020 :heavy_check_mark: _Asynchronous Programming_
 30 - 31.01.2020 :heavy_check_mark: DOM Manipulations | **16 - 17.03.2020** :heavy_check_mark: _Remote Databases_
 **03 - 04.02.2020** :heavy_check_mark: Classes | 19 - 20.03.2020 :heavy_check_mark: _Routing_
 06 - 07.02.2020 :heavy_check_mark: Unit Testing and Modules | **23 - 24.03.2020** :heavy_check_mark: _Templating_
-**10 - 11.02.2020**:heavy_check_mark: Strings and RegExp | 26 - 27.03.2020 :heavy_check_mark: _Workshop: Single Page Application_
+**10 - 11.02.2020** :heavy_check_mark: Strings and RegExp | 26 - 27.03.2020 :heavy_check_mark: _Workshop: Single Page Application_
 **18.02.2020** :heavy_check_mark: Workshop: Landing Page | **30.03.2020** :heavy_check_mark: _Design Patterns and best practices_
 ... | 02.04.2020 :heavy_check_mark: _WebPack_
 
