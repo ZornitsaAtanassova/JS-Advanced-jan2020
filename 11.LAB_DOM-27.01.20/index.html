@@ -1,0 +1,148 @@
+<!--Emmet Abbreviations (frequently):
+      !
+      html:5
+      ul>li*5
+      ul>li.className$$*5
+      a{link}
+      link:css
+      meta:utf
+      .
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Document</title>
+</head>
+<body>
+      <h1 id="first">Heding 1 in body</h1>
+      <div>
+            <h1>Heading 1</h1>
+            some text in DIV 0 tag
+      </div>
+      <div>
+            <h2>Heading 2</h2>
+            some text in DIV 1 tag
+      </div>
+      <div class="content">
+            <h3>Heading 3</h3>
+            some text in DIV 2 tag
+      </div>
+      <div id="content">
+            <h4>Heading 4</h4>
+            some text in DIV 3 tag
+      </div>
+      <div class="content">
+            <h5>Heading 5</h5>
+            some text in DIV 4 tag
+      </div>
+      <br>
+      <br>
+      <br>
+      <p id="toRemove">Paragraph <strong>0</strong></p>
+      <p id="toRemoveChild">Paragraph with removed child - tag STRONG <strong id="child">0</strong></p>
+      <p class="toRemoveCollection">Paragraph <strong>1</strong></p>
+      <p class="toRemoveCollection">Paragraph <strong>2</strong></p>
+      <p class="toRemoveCollection">Paragraph <strong>3</strong></p>
+      <p class="toRemoveCollection">Paragraph <strong>4</strong></p>
+      <p class="toRemoveCollection">Paragraph <strong>5</strong></p>
+      <br>
+      <br>
+      <input type="text"/>
+      <input type="text"/>
+      <input type="date"/>
+
+
+      <script>
+      // JS Methods for Finding/Access/Get existing HTML Elements in DOM Tree
+            // Get elementS by tag name, by means of index of colection
+            let myBody = document.getElementsByTagName('body')[0];
+            let myDiv0 = document.getElementsByTagName('div')[0];
+            let myDiv1 = document.getElementsByTagName('div')[1];
+            // Get elementS by class name, by means of index of colection
+            let myDiv2 = document.getElementsByClassName('content')[0];
+            // Get elementS by id
+            let myDiv3 = document.getElementById('content');
+            let myDiv4 = document.getElementsByClassName('content')[1];
+            console.log(myBody);
+
+            let pToRemove = document.getElementById('toRemove');
+            let pToRemoveChild = document.getElementById('toRemoveChild');
+            let pChild = document.getElementById('child');
+            let pCollectionToRemove = document.getElementsByClassName('toRemoveCollection');
+            let heading = document.getElementById('first');
+            let inp1 = document.getElementsByTagName('input')[0];
+            let inp2 = document.getElementsByTagName('input')[1];
+
+            // Create new HTML Elements in DOM Tree
+            let par = document.createElement('p');
+            // Cloning existing HTML Elements in DOM Tree
+            let cloningHeading = heading.cloneNode(true);
+            let cloningDiv0withChild = myDiv0.cloneNode(true);
+            //let cloningDiv0withoutChild = myDiv0.cloneNode(false);
+
+      // JS Properties and Methods for DOM Manipulation (not real HTML Elements)
+            
+            // Overwrite or create new STRING or/and NESTED TAGS at a tag content
+            myDiv0.innerHTML = 'innerHTML method overwrite all content of tag DIV 0 with this text!';
+            myDiv1.innerHTML = 'innerHTML method also could insert tags. For example I try to insert tag STRONG, the result is like this: <strong>STRONG tag in tag DIV 1<//strong>';
+
+            // Overwrite or create new STRING at a tag content
+            myDiv2.textContent = 'textContent method overwrite all content of tag DIV 2, but could not insert tags. For example I try to insert tag STRONG, the result is like this: <strong>...<//strong>';
+
+            // Overwrite or create new STRING or/and TAGS instead a tag
+            myDiv3.outerHTML = 'outerHTML method overwrite the all tag DIV 3 with this text!';
+            myDiv4.outerHTML = '<p>outerHTML method overwrite the all tag DIV 4 with these tags - PARAGRAPH and nested tag <strong>STRONG tag in tag new tag PARAGRAPH<//strong>!<//p>';
+
+            // Fill new HTML Elements in DOM Tree
+            par.textContent = 'This is a new created and added HTML Element - PARAGRAPH. Who represent a object in our RAM and DOM';
+
+            // Add the new HTML Elements in DOM Tree
+            // .appendChild() - insert the new to bottom
+            myDiv0.appendChild(par);
+            // .prepend() - insert the new to top
+            //myDiv0.prepend(par);
+            myDiv0.prepend(cloningHeading);
+            myBody.prepend(cloningDiv0withChild);
+            //myBody.prepend(cloningDiv0withoutChild);
+
+            // Deleting the DOM HTML Elements from DOM Tree
+            pToRemove.remove();
+            console.log(pToRemove);
+            pToRemoveChild.removeChild(pChild);
+            Array.from(pCollectionToRemove).forEach(element => {
+                  element.remove();
+            });
+
+            // Get attrebutes at HTML Element in DOM Tree
+            let inpAtt1 = inp1.getAttribute('type');
+            console.log(inpAtt1);
+
+            // Replace or Give new attrebutes at HTML Element in DOM Tree
+            inp1.setAttribute('placeholder', 'Please input username');
+            inp2.setAttribute('type', 'number');
+            inp2.setAttribute('placeholder', 'Choose number');
+
+            // Replace or Give new value at HTML Element in DOM Tree
+            inp2.value = 14;
+
+            // Class manipulation of a HTML Element in DOM Tree
+            myDiv2.classList.toggle('hidden'); // return true and add the class
+            myDiv2.classList.toggle('hidden'); // return false and remove the class
+            let classList = myDiv2.classList;
+            console.log(classList);
+            
+
+            // BOM
+            // alert(window.navigator.userAgent);
+            console.log(navigator.language);
+            console.log(screen.width + ' x ' + screen.height);
+            console.log(document.location);
+            console.log(history.back());
+
+      </script>
+      <script src="lab.js"></script>
+</body>
+</html>
