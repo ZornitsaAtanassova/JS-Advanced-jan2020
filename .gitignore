@@ -2,8 +2,8 @@
 *.eps
 *.pdf
 *.xlsx
-*.docx
-*.doc
+##*.docx
+##*.doc
 *.pptx
 *.png
 *.jpg
