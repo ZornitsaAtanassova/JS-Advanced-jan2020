@@ -1,11 +1,11 @@
 # <a href="https://softuni.bg/modules/76/js-advanced/1207" rel="JavaScript Advanced"><p align="center"> JavaScript Advanced january 2020<p></a>
 
-_This repository contains tasks resolved with JavaScript. Tasks' terms can be seen as short comments in each file. The JS Advanced Module (jan 2020 - apr 2020) courses are part of the Software Engineer program at [Software University](https://about.softuni.bg/), Bulgaria._
+_This repository contains tasks resolved with JavaScript. The JS Advanced Module (jan 2020 - apr 2020) contains two courses - **JS Advanced** and **JS Applications** which are part of the Software Engineer program at [Software University](https://about.softuni.bg/), Bulgaria._
 
 ---
 
 ## Courses and topics:
-[JS Advanced january 2020](https://softuni.bg/trainings/2609/js-advanced-january-2020#lesson-14062) | [JS Application february 2020](https://softuni.bg/trainings/2610/js-applications-february-2020)
+[JS Advanced january 2020](https://softuni.bg/trainings/2609/js-advanced-january-2020) | [JS Applications march 2020](https://softuni.bg/trainings/2610/js-applications-february-2020)
 ----------------- | -------------
 **13 - 14.01.2020** :heavy_check_mark: Syntax, Functions and Statements | **24 - 25.02.2020** :heavy_check_mark: _This_
 16 - 17.01.2020 :heavy_check_mark: Arrays | 27 - 28.02.2020 :heavy_check_mark: _Object Composition_
@@ -16,7 +16,7 @@ _This repository contains tasks resolved with JavaScript. Tasks' terms can be se
 **03 - 04.02.2020** :heavy_check_mark: Classes | 19 - 20.03.2020 :heavy_check_mark: _Routing_
 06 - 07.02.2020 :heavy_check_mark: Unit Testing and Modules | **23 - 24.03.2020** :heavy_check_mark: _Templating_
 **10 - 11.02.2020** :heavy_check_mark: Strings and RegExp | 26 - 27.03.2020 :heavy_check_mark: _Workshop: Single Page Application_
-**18.02.2020** :heavy_check_mark: Workshop: Landing Page | **30.03.2020** :heavy_check_mark: _Design Patterns and best practices_
+**17.02.2020** :heavy_check_mark: Workshop: Landing Page | **30.03.2020** :heavy_check_mark: _Design Patterns and best practices_
 ... | 02.04.2020 :heavy_check_mark: _WebPack_
 
 ---
